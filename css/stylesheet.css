@@ -85,7 +85,7 @@
 }
 
 .sea-period::before {
-  content:"\70";
+  content:"\50";
 }
 
 .sea-stack {

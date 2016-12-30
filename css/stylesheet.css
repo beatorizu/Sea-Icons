@@ -29,6 +29,11 @@
   position: absolute;
 }
 
+.sea-current-intensity::before {
+	content:"\76";
+  position: relative;
+}
+
 .sea-north::before {
 	content:"\6e";
   position: relative;
@@ -93,10 +98,40 @@
   font-size: .3em;
   position:relative;
 	display:inline-block;
-	width:2em;
-	height:2em;
+	width:1em;
+	height:1em;
   line-height: .9em;
-	vertical-align:middle
+	vertical-align:middle;
+  margin-bottom: 20px;
+}
+
+.sea-stack-rotate {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: .3em;
+  position:relative;
+	display:inline-block;
+	width:1em;
+	height:1em;
+  line-height: .7em;
+	vertical-align:middle;
+  margin-bottom: 20px;
+}
+
+.sea-rotate {
+  /* Safari */
+  -webkit-transform: rotate(-45deg);
+
+  /* Firefox */
+  -moz-transform: rotate(-45deg);
+
+  /* IE */
+  -ms-transform: rotate(-45deg);
+
+  /* Opera */
+  -o-transform: rotate(-45deg);
+
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
 .sea-period-value {
@@ -109,8 +144,6 @@
   text-align: center;
 }
 
-.sea-stack + .sea-stack { margin-left: .3em; }
-.sea-stack { margin-bottom: 20px; }
 
 .sea-stack-1x,.sea-stack-2x {
 	position:absolute;

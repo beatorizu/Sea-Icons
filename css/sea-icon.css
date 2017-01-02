@@ -99,6 +99,26 @@ ul {
   position: relative;
 }
 
+.sea-wave-northeast::after {
+	content:"\52";
+  position: relative;
+}
+
+.sea-wave-southeast::after {
+	content:"\49";
+  position: relative;
+}
+
+.sea-wave-northwest::after {
+	content:"\54";
+  position: relative;
+}
+
+.sea-wave-southwest::after {
+	content:"\55";
+  position: relative;
+}
+
 .sea-low-level::after {
   content:"\6c";
   position: relative;

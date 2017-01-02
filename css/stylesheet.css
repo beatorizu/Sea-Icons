@@ -19,6 +19,7 @@
 	font-family:'SeaIcons';
 	font-style:normal;
 	font-weight:normal;
+  font-size: inherit;
 	line-height:1;
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing:grayscale
@@ -95,7 +96,6 @@
 
 .sea-stack {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: .3em;
   position:relative;
 	display:inline-block;
 	width:1em;
@@ -105,19 +105,16 @@
   margin-bottom: 20px;
 }
 
-.sea-stack-rotate {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: .3em;
-  position:relative;
-	display:inline-block;
-	width:1em;
-	height:1em;
-  line-height: .7em;
-	vertical-align:middle;
-  margin-bottom: 20px;
+.sea-period-value, .sea-rotate {
+  font-size: .23em;
+}
+
+.sea-period-value {
+  bottom: .6em;
 }
 
 .sea-rotate {
+  bottom: .7em;
   /* Safari */
   -webkit-transform: rotate(-45deg);
 
@@ -134,16 +131,10 @@
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
-.sea-period-value {
-  font-size: .23em;
-  margin-top: .3em;
-}
-
 .stacked-icons {
   margin-top: 20px;
   text-align: center;
 }
-
 
 .sea-stack-1x,.sea-stack-2x {
 	position:absolute;
@@ -152,6 +143,26 @@
 	text-align:center;
 }
 
+.sea-stack-1x {
+  line-height: inherit;
+}
+
+.sea-stack-2x {
+  font-size:2em;
+}
+
+.sea-2x {
+	font-size:2em;
+}
+
 .sea-3x {
 	font-size:3em;
+}
+
+.sea-4x {
+	font-size:4em;
+}
+
+.sea-5x {
+	font-size:5em;
 }

@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+ul {
+  list-style-type: none;
+}
+
 @font-face {
     font-family: 'SeaIcons';
     src: url('../fonts/seaicon-webfont.woff2') format('woff2'),
@@ -52,6 +56,26 @@
 
 .sea-east::before {
 	content:"\65";
+  position: relative;
+}
+
+.sea-northeast::after {
+  content:"\72";
+  position: relative;
+}
+
+.sea-southeast::after {
+  content:"\69";
+  position: relative;
+}
+
+.sea-northwest::after {
+  content:"\74";
+  position: relative;
+}
+
+.sea-southwest::after {
+  content:"\75";
   position: relative;
 }
 

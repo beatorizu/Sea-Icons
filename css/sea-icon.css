@@ -10,7 +10,8 @@ ul {
 
 @font-face {
     font-family: 'SeaIcons';
-    src: url('../fonts/seaicon-webfont.woff2') format('woff2'),
+    src: url('../fonts/seaicon-webfont.ttf') format('ttf'),
+         url('../fonts/seaicon-webfont.woff2') format('woff2'),
          url('../fonts/seaicon-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -29,117 +30,122 @@ ul {
 	-moz-osx-font-smoothing:grayscale
 }
 
-.sea-clima-logo::before {
+.sea-clima-logo:before {
 	content:"\e000";
-  position: relative;;
+  position: relative;
 }
 
-.sea-wave::before {
+.sea-clima-logo-text:before {
+	content:"\e001";
+  position: relative;
+}
+
+.sea-wave:before {
 	content:"\6f";
   position: absolute;
 }
 
-.sea-current-intensity::before {
+.sea-current-intensity:before {
 	content:"\76";
   position: relative;
 }
 
-.sea-north::before {
+.sea-north:before {
 	content:"\6e";
   position: relative;
 }
 
-.sea-south::before {
+.sea-south:before {
 	content:"\73";
   position: relative;
 }
 
-.sea-west::before {
+.sea-west:before {
 	content:"\77";
   position: relative;
 }
 
-.sea-east::before {
+.sea-east:before {
 	content:"\65";
   position: relative;
 }
 
-.sea-northeast::after {
+.sea-northeast:after {
   content:"\72";
   position: relative;
 }
 
-.sea-southeast::after {
+.sea-southeast:after {
   content:"\69";
   position: relative;
 }
 
-.sea-northwest::after {
+.sea-northwest:after {
   content:"\74";
   position: relative;
 }
 
-.sea-southwest::after {
+.sea-southwest:after {
   content:"\75";
   position: relative;
 }
 
-.sea-wave-north::after {
+.sea-wave-north:after {
 	content:"\4e";
   position: relative;
 }
 
-.sea-wave-south::after {
+.sea-wave-south:after {
 	content:"\53";
   position: relative;
 }
 
-.sea-wave-west::after {
+.sea-wave-west:after {
 	content:"\57";
   position: relative;
 }
 
-.sea-wave-east::after {
+.sea-wave-east:after {
 	content:"\45";
   position: relative;
 }
 
-.sea-wave-northeast::after {
+.sea-wave-northeast:after {
 	content:"\52";
   position: relative;
 }
 
-.sea-wave-southeast::after {
+.sea-wave-southeast:after {
 	content:"\49";
   position: relative;
 }
 
-.sea-wave-northwest::after {
+.sea-wave-northwest:after {
 	content:"\54";
   position: relative;
 }
 
-.sea-wave-southwest::after {
+.sea-wave-southwest:after {
 	content:"\55";
   position: relative;
 }
 
-.sea-low-level::after {
+.sea-low-level:after {
   content:"\6c";
   position: relative;
 }
 
-.sea-medium-level::after {
+.sea-medium-level:after {
   content:"\6d";
   position: relative;
 }
 
-.sea-high-level::after {
+.sea-high-level:after {
   content:"\68";
   position: relative;
 }
 
-.sea-period::before {
+.sea-period:before {
   content:"\50";
 }
 

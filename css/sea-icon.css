@@ -29,6 +29,11 @@ ul {
 	-moz-osx-font-smoothing:grayscale
 }
 
+.sea-clima-logo::before {
+	content:"\e000";
+  position: relative;;
+}
+
 .sea-wave::before {
 	content:"\6f";
   position: absolute;
